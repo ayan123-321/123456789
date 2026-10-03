@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="FBAb,|G$YU:UO58E^-N[">mySprite</variable><variable type="KIND_SpriteKind" id="P{+kKVmdB)7-3XC@{nxJ">Player</variable><variable type="KIND_SpriteKind" id="Bq4+fLMJJYuB;IrxTa;0">Projectile</variable><variable type="KIND_SpriteKind" id="N/I8G)2hNG8I#=YaFdo)">Food</variable><variable type="KIND_SpriteKind" id="SwW`*!-4m7/FR_KI|d!y">Enemy</variable></variables><block type="pxt-on-start" id="B,ZnF:l.`~v8Db`n|Ps$" x="20" y="20"><statement name="HANDLER"><block type="variables_set" id="O1kcx`sxD|Q50c9Baq)F"><field name="VAR" id="FBAb,|G$YU:UO58E^-N[">mySprite</field><value name="VALUE"><shadow type="math_number" id="u!H+o,+R:_7P=p!T7_hG"><field name="NUM">0</field></shadow><block type="spritescreate" id="Rk!YHq{ie=@R]Kek?eCK"><value name="img"><shadow type="screen_image_picker" id="b)n4nY*h;b-ijP8e1Kzr"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Ebze_y:QXghA,UjicrGq"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="(D+H}~KY=HFl$[,E[YpK"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="|^B(zn2r!D?{kNSJq|ws"><field name="VAR" id="FBAb,|G$YU:UO58E^-N[">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="E]O?V5{:~0jP,Qt/yTiC"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="C}(:rzJRC^.bh4Yj_|Va"><field name="speed">100</field></shadow></value></block></next></block></statement></block><block type="pxt-on-start" id="e(}]PG[.4ti/]x$5^ZEL" disabled-reasons="pxt_automatic_disabled" x="307" y="216"><statement name="HANDLER"><block type="run_image_animation" id="XwQ,g@82i:V[5,o7PokE" disabled-reasons="pxt_automatic_disabled"><value name="sprite"><block type="variables_get" id="0,x4gGj)/;ez#W~L[8@y" disabled-reasons="pxt_automatic_disabled"><field name="VAR" id="FBAb,|G$YU:UO58E^-N[">mySprite</field></block></value><value name="frames"><shadow type="animation_editor" id="@SG8_Ufl/C@$]J/+^Zoj" disabled-reasons="pxt_automatic_disabled"><field name="frames">assets.animation`battery`</field><data>{"commentRefs":[],"fieldData":{"frames":"myAnimations.anim1"}}</data></shadow></value><value name="frameInterval"><shadow type="timePicker" id="Ws(r/1UYFx#V7Yk^-*jP" disabled-reasons="pxt_automatic_disabled"><field name="ms">100</field></shadow></value><value name="loop"><shadow type="toggleOnOff" id="M=jXF_~$jmw8sVI:v!$z" disabled-reasons="pxt_automatic_disabled"><field name="on">true</field></shadow></value></block></statement></block></xml>
